@@ -1,16 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import StarryBackground from "@/components/StarryBackground";
+import ProfileSection from "@/components/ProfileSection";
+import LinksSection from "@/components/LinksSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import CertificatesSection from "@/components/CertificatesSection";
+import EventsSection from "@/components/EventsSection";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
+const handleAdd = () => alert("Add feature coming soon");
 
-const Index = PlaceholderIndex;
+const Index = () => (
+  <div className="relative min-h-screen">
+    <StarryBackground />
+    <main className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-center mb-4 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+        My Portfolio
+      </h1>
+      <p className="text-muted-foreground text-center mb-16 text-lg">Developer • Creator • Problem Solver</p>
+      <ProfileSection onAdd={handleAdd} />
+      <LinksSection onAdd={handleAdd} />
+      <ProjectsSection onAdd={handleAdd} />
+      <CertificatesSection onAdd={handleAdd} />
+      <EventsSection onAdd={handleAdd} />
+    </main>
+  </div>
+);
 
 export default Index;
