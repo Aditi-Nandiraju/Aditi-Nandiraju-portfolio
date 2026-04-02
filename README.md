@@ -1,5 +1,7 @@
 # Portfolio Showcase
 
+Deployed app: aditi-portfolio-website.netlify.app/
+
 ## Built using: lovable.dev
 A modern, responsive personal portfolio built with React and Vite to showcase projects, certifications, and events.
 
