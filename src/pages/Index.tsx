@@ -18,8 +18,8 @@ const Index = () => (
       <ProfileSection onAdd={handleAdd} />
       <LinksSection onAdd={handleAdd} />
       <ProjectsSection onAdd={handleAdd} />
-      <CertificatesSection onAdd={handleAdd} />
       <EventsSection onAdd={handleAdd} />
+      <CertificatesSection onAdd={handleAdd} />
     </main>
   </div>
 );

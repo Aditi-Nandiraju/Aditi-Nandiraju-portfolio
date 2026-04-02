@@ -1,11 +1,11 @@
 import SectionHeader from "./SectionHeader";
 
 const LinksSection = ({ onAdd }: { onAdd: () => void }) => {
-  const links = `https://github.com/alexjohnson
-https://leetcode.com/alexjohnson
-https://linkedin.com/in/alexjohnson
-https://twitter.com/alexjdev
-https://alexjohnson.dev`;
+  const links = `https://github.com/Aditi-Nandiraju
+https://leetcode.com/u/_Aditi________/
+https://www.linkedin.com/in/aditi-nandiraju-402940322/
+https://www.hackerrank.com/profile/aditi_nandiraju
+`;
 
   return (
     <section className="mb-16">
