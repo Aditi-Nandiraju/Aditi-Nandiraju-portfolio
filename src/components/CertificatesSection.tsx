@@ -45,27 +45,27 @@ const certs = [
   },
   {
     title: "Foundations of Algorithmic Thinking with Python",
-    description: "placeholder",
+    description: "python, Algorithmic Thinking, Data Structures, Problem Solving, Computational Complexity",
     image: event7,
   },
   {
     title: "Machine Learning Statistical Foundations Professional Certificate by Wolfram Research",
-    description: "placeholder",
+    description: "Wolfram Language,Machine Learning,Linear Algebra",
     image: event8,
   },
   {
     title: "Built-in Machine Learning in the Wolfram Language",
-    description: "placeholder",
+    description: "Wolfram Language,Machine Learning",
     image: event9,
   },
   {
     title: "Machine Learning Foundations: Statistics",
-    description: "placeholder",
+    description: "Statistics,Probability,Data Analysis",
     image: event10,
   },
   {
     title: "Machine Learning Foundations: Linear Algebra",
-    description: "placeholder",
+    description: "Linear Algebra,Matrix Operations,Vector Spaces",
     image: event11,
   },
   {

@@ -4,8 +4,8 @@ import profileImg from "../assets/profile_picture.jpeg";
 const ProfileSection = ({ onAdd }: { onAdd: () => void }) => {
   const profileSrc = profileImg;
   const bio = 
-  `Builder focused on turning ideas into real, working products. I work at the intersection of AI and web development, creating practical solutions through projects, hackathons, and rapid prototyping. Interested in solving meaningful problems, not just writing code.
-Currently exploring AI/ML integration in web apps.
+  `AI and web development enthusiast building practical, real-world solutions. From AI-powered tools like an Intelligent Excuse Generator to hackathon projects and research work, I focus on turning ideas into functional products while continuously learning and improving.
+Currently exploring AI/ML integration in web apps with React and Node.js.
 Open to collaboration and freelance opportunities.`;
 
   return (
