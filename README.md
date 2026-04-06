@@ -28,12 +28,6 @@ A modern, responsive personal portfolio built with React and Vite to showcase pr
 
 ---
 
-## Live Demo
-
-Add your Netlify link here
-
----
-
 ## Project Structure
 
 ```text
