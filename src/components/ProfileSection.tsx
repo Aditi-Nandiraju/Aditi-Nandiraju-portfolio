@@ -4,9 +4,7 @@ import profileImg from "../assets/profile_picture.jpeg";
 const ProfileSection = () => {
   const profileSrc = profileImg;
   const bio = 
-  `AI and web development enthusiast building practical, real-world solutions. From AI-powered tools like an Intelligent Excuse Generator to hackathon projects and research work, I focus on turning ideas into functional products while continuously learning and improving.
-Currently exploring AI/ML integration in web apps with React and Node.js.
-Open to collaboration and freelance opportunities.`;
+  `I'm a third-year Computer Science student with a strong interest in AI and full-stack development. I enjoy building projects that combine practical software engineering with machine learning, particularly in areas like deep learning, NLP, computer vision, and AI-powered applications. I like exploring ideas that solve real problems.`;
 
   return (
     <section className="mb-16">
